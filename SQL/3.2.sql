@@ -13,7 +13,7 @@ if object_id('libros') is not null
  where TABLE_TYPE = 'BASE_TABLE';
 
  select * from information_schema.COLUMNS
- where table_name = 'MyTabla';
+ where table_name = 'libros';
 
  insert into libros (titulo,autor,editorial)
   values ('El aleph','Borges','Planeta');
